@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script type="text/javascript">
+		window.onload = function() {
+
+			var oDiv = document.getElementById('hearderbgpic');
+			var oUl = oDiv.getElementsByTagName('ul')[0];
+			var aLi = oUl.getElementsByTagName('li');
+			var aImg = oUl.getElementsByTagName('img');
+
+			var oBtn = document.getElementById('btn');
+			var aA = oBtn.getElementsByTagName('a');
+
+			var aImgwidth = 500;
+			oUl.style.width = aLi.length * aImgwidth + 'px';
+		};
+	</script>
+	<style>
+		/** {*/
+			/*margin: 0;*/
+			/*padding: 0;*/
+		/*}*/
+		
+		/*#hearderbgpic {*/
+			/*!*height: 500px;*!*/
+			/*!*width: 800px;*!*/
+			/*position: relative;*/
+			/*!*margin: 0 auto auto;*!*/
+			/*!*overflow: hidden;*!*/
+			/**/
+		/*}*/
+		
+		#hearderbgpic  li {
+			text-decoration: none;
+			list-style: none;
+			display:inline;
+			border:1px;
+			/*float: left;*/
+		}
+		
+		#hearderbgpic  li img {
+			/*height: 500px;*/
+			/*width: 800px;*/
+			position: relative;
+			text-decoration: none;
+			margin: 0px;
+			height: 500px;
+			line-height: 500px;
+			text-align: center;
+		}
+		
+		#btn {
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			bottom: 0;
+		}
+		
+		#btn a {
+			cursor: pointer;
+			display: inline-block;
+			width: 11px;
+			height: 11px;
+			background: #666666;
+		}
+		
+		#btn a:hover {
+			background: white;
+		}
+		
+		#btn a:active {
+			background: white;
+		}
+	</style>
+
+	<body>
+		<div id="header">
+			<div id="hearderbg">
+				<div id="hearderbgpic">
+					<ul>
+						<li><img src="img/traval/abroad/Bolivia.jpg"></li>
+						<li><img src="img/traval/abroad/paris.jpg"></li>
+						<li><img src="img/traval/abroad/New York.jpg"></li>
+						<div id="btn">
+							<a href="js/"></a>
+							<a></a>
+							<a></a>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

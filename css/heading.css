@@ -1,0 +1,48 @@
+.User{
+	width: 100%;
+	height: 40px;	
+	margin: 0px auto;	
+	background-color: #666666;
+}
+.headr{
+	width: 75%;
+	height: 150px;
+	margin: 10px auto;
+}
+.tittle{
+	width: 100%;
+}
+.nav{
+	width: 70%;
+	height: 30px;
+	float: left;
+}
+.nav ul{
+	margin: 0px auto;
+	margin-left:600px ;
+}
+.nav ul li{
+    list-style-type: none;
+	display: inline;
+	margin:0px 10px;	
+}
+.nav ul li button{
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 30px;
+}
+.ScrPla{
+	float: left;
+	width: 30%;
+	height: 30px;
+}
+.ScrPla input{
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 30px;
+
+}
+
+.heading{
+	background-color: #FF6600;
+}
